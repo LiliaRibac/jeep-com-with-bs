@@ -1,0 +1,29 @@
+/* body,html{
+    margin: 0;
+
+} */
+
+nav{
+    background-color: black;
+}
+.logo{
+    width: 40%;
+    
+}
+.menu{
+    color: white;
+    size: 12px;
+}
+
+
+.card{
+    border:0px;
+    min-width:45%;
+    text-align:center;
+}
+
+
+.card h6, p{
+    margin:0px;
+    padding:0px;
+}
