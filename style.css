@@ -1,7 +1,4 @@
-/* body,html{
-    margin: 0;
 
-} */
 
 nav{
     background-color: black;
@@ -14,16 +11,42 @@ nav{
     color: white;
     size: 12px;
 }
-
+.card-body{
+    padding: none;
+}
 
 .card{
     border:0px;
-    min-width:45%;
-    text-align:center;
+   
 }
-
+.card-image-top {
+    min-width: 140px;
+}
 
 .card h6, p{
     margin:0px;
     padding:0px;
+}
+.second-cont{
+    background-color: black;
+    color: white;
+}
+.grey-info{
+    background-color:gray;
+       
+}
+.container-c{
+background-color: #d1d1d1;
+padding: 20px 0px;
+}
+
+
+.orange-color{
+    color: orange;
+    margin-left: 10px;
+}
+
+.info{
+margin: 0 20px;
+font-family: 'Roboto', sans-serif; 
 }
