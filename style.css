@@ -22,10 +22,46 @@ nav{
 
 .card{
     border:0px;   
+    padding: 12px;
 }
 
-.card-image-top {
+.popular-cars-bg{
+    background-color:#d1d1d1;
+}
+
+.card-img-top {
     min-width: 140px;
+    /* padding: 20px; */
+}
+
+.start-now-text{
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.start-now-text p{
+    padding: 0px;
+    margin: 0px;
+    width: 80%;
+}
+
+#start-now-button{
+    margin: 0px;
+    padding: 5px; 
+    margin-top:5px;
+}
+
+.start-now-img-container{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-now-img-container img {
+    width: 100%;
 }
 
 .card h6, p{
@@ -37,7 +73,9 @@ nav{
     color: white;
 }
 .grey-info{
-    background-color:gray;
+    background-color:#212121;
+    font-size:12px;
+    font-weight:bold;
        
 }
 .container-c{
@@ -54,6 +92,8 @@ padding-top: 20px;
 .info{
 margin: 0 20px;
 font-family: 'Roboto', sans-serif; 
+font-size:14px;
+
 }
 .text{
     font-size: 14px;
@@ -102,6 +142,7 @@ padding-top:30px;
   .footer-links{
       color:#bfbfbf;
       text-decoration: none;
+      font-size:12px;
    
   }
   .white-gradient{
@@ -132,10 +173,17 @@ padding-top:30px;
  }
   hr{
       background-color: gray;
-  }
-  .types-of-car{
-   
+   }
+   .types-of-car{
     margin:30px 0px; 
     word-spacing: 4px;
-    display: flex;
+    display: flex; 
+   }
+
+ 
+.paragraph{
+    color:rgb(191,191,191);
+    font-size: 10px;
+    padding: 0px 10px;
+    /* padding-bottom: 50px; */
 }
