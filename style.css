@@ -19,12 +19,10 @@ nav{
     flex: 1 1 auto;
     padding: 0.25rem;
 }
-
+ 
 .card{
-    border:0px;   
-    padding: 12px;
+    border:0px;
 }
-
 .popular-cars-bg{
     background-color:#d1d1d1;
 }
@@ -43,15 +41,16 @@ nav{
 }
 
 .start-now-text p{
-    padding: 0px;
-    margin: 0px;
+    /* padding: 0px; */
+    /* margin: 0px; */
     width: 80%;
 }
 
 #start-now-button{
-    margin: 0px;
-    padding: 5px; 
-    margin-top:5px;
+    /* margin: 0px; */
+    /* padding: 5px;  */
+    margin-top:15px;
+    margin-bottom: 35px;
 }
 
 .start-now-img-container{
@@ -63,7 +62,9 @@ nav{
 .start-now-img-container img {
     width: 100%;
 }
-
+h3{
+    padding-top: 30px;
+}
 .card h6, p{
     margin:0px;
     padding:0px;
@@ -101,6 +102,7 @@ font-size:14px;
 }
 .just-now{
 padding-top:30px;
+
 }
 .button1{
     background-color: rgb(255,186,0);
@@ -135,7 +137,7 @@ padding-top:30px;
        background-color: #d1d1d1;
        text-align: center;
    }
-.container-d{
+ .container-d{
     background-color: #212121;
 }
    
@@ -143,6 +145,7 @@ padding-top:30px;
       color:#bfbfbf;
       text-decoration: none;
       font-size:12px;
+      margin-left: 20px;
    
   }
   .white-gradient{
@@ -152,15 +155,17 @@ padding-top:30px;
       padding: 5px 23px;
      font-size: 12px;
   }
-  .container-e{
+  /* .container-e{
       background-color: black;
-      border-radius: 0;
-  }
+      border-radius:0px;
+  } */
+ 
  .btn-link{
      text-decoration: none;
  }
  .list-group-item {
      background-color: black;
+     padding: 0px;
  }
 .container-f{
     background-color: black;
@@ -172,7 +177,7 @@ padding-top:30px;
      
  }
   hr{
-      background-color: gray;
+      background-color: white;
    }
    .types-of-car{
     margin:30px 0px; 
@@ -187,3 +192,33 @@ padding-top:30px;
     padding: 0px 10px;
     /* padding-bottom: 50px; */
 }
+/* .text-right{
+    text-align: right;
+} */
+.card-header {
+    background-color:black;
+}
+.hello{
+    background-color:black;
+    /* border: 0px; */
+    color: white;
+    border-bottom:0.5px solid white;
+    border-radius: none;
+   
+} 
+
+.card-body{
+    background-color: black;
+   
+}
+.card-header:first-child{
+    border-radius: 0px;
+}
+
+ button{
+    border:none;
+    font-size: 
+ }
+ button:focus{
+     outline: none;
+ }
