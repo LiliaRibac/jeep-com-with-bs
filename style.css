@@ -1,25 +1,76 @@
 
+body{
+     overflow-x: hidden;
+     /*font-family: 'Lato', sans-serif;*/
+ }
 
 nav{
     background-color: black;
 }
+
 .logo{
-    width: 40%;
-    
+    height: 25px;
+
 }
-.navbar-nav .dropdown-menu {
+.custom-toggler-icon{
+  color: white;
+}
+/* .navbar-nav .dropdown-menu {
     position: absolute;
     float: none;
+} */
+.navbar a:hover{
+    text-decoration: none;
+    color: #bfbfbf;
+    /* transition: 200ms; */
+    /* font-weight: bold; */
+    background-color: grey;
 }
 .menu{
     color: white;
-    size: 12px;
+    width: auto;
+    font-weight: 100;
+}
+/* .fz{
+    font-size:12px;
+} */
+.text-white{
+    line-height: .1;
 }
 .card-body-local{
     flex: 1 1 auto;
     padding: 0.25rem;
 }
+.icon{
+    font-size:15px;
+    margin: 9px;
+    color: grey;
+   
+}
  
+
+/* freedoom -box */
+
+/* .freedom-box{
+    background-color: gray;
+    text-align: center;
+    padding:30px 0px;
+    margin-top:20px;
+    z-index: 1;
+    
+} */
+
+/* .medium-carousel-cars{
+    height: 55vw;
+    background-size: cover;
+    background-position: center;
+    background-image: url('tablet.jpg.image.2000.jpg')
+    
+} */
+
+
+
+
 .card{
     border:0px;
 }
@@ -217,8 +268,9 @@ padding-top:30px;
 
  button{
     border:none;
-    font-size: 
+   
  }
+
  button:focus{
      outline: none;
  }
