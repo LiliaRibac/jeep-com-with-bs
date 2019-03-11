@@ -1,4 +1,4 @@
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 body{
      overflow-x: hidden;
      /*font-family: 'Lato', sans-serif;*/
@@ -50,27 +50,31 @@ nav{
  
 
 /* freedoom -box */
+.carousel-caption {
+	background-color: rgba(0, 0, 0, .5);
+	width: 50%;
+	height: 45%;
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	line-height: 1.2;
+}
 
-/* .freedom-box{
-    background-color: gray;
-    text-align: center;
-    padding:30px 0px;
-    margin-top:20px;
-    z-index: 1;
-    
-} */
+.carousel-caption2{
+    background-color: rgba(0, 0, 0, .5);
+	width: 20%;
+	height: 25%;
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	line-height: 1.2;
+}
 
-/* .medium-carousel-cars{
-    height: 55vw;
-    background-size: cover;
-    background-position: center;
-    background-image: url('tablet.jpg.image.2000.jpg')
-    
-} */
-
-
-
-
+.carousel-caption-1{
+    width: 50%;
+    position: absolute;
+    left: 5%;
+}
 .card{
     border:0px;
 }
